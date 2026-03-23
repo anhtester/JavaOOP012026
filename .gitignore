@@ -25,3 +25,6 @@ replay_pid*
 .idea/
 *.docx
 *.txt
+.vscode
+out/
+target/
