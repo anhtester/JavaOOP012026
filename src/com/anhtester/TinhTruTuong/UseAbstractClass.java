@@ -1,6 +1,7 @@
 package com.anhtester.TinhTruTuong;
 
-public class UseAbstractClass extends DemoAbstractClass {
+public class UseAbstractClass extends DemoAbstractClass implements LoginActions {
+
    @Override
    public void enterEmail(String email) {
       System.out.println("Nhập email: " + email);
